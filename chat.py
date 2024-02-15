@@ -13,6 +13,7 @@ completion = client.chat.completions.create(
         {"role": "user", "content": "What are most important logical fallacies?"},
     ],
     max_tokens=15,
+    # number of answers to generate
     n=15,
     temperature=1
 
